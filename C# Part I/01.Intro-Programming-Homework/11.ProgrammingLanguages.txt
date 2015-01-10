@@ -1,0 +1,14 @@
+Problem 11. Programming Languages
+
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#?
+Write at least five languages along with 2-3 sentences about each of them. Use English.
+
+I. Java - Java is a class-based, object-oriented programming language developed by Sun Microsystems in the 1990s. It has a very simiral syntax to CSharp. Java, however, is designed to work across multiple software platforms, meaning a program written on Mac OS X, for example, could also run on Windows.
+
+II. C - A general-purpose, imperative programming language developed in the early '70s, C is the oldest and most widely used language, providing the building blocks for other popular languages, such as C#, Java, JavaScript and Python. C is mostly used for implementing operating systems and embedded applications, whereas, C# would be used for higher-level applications.
+
+III. C++ - an intermediate-level language with object-oriented programming features, originally designed to enhance the C language. C++ powers major software like Firefox, Winamp and Adobe programs. It's used to develop systems software, application software, high-performance server and client applications and video games. One major difference between C++ and CSharp is the lack of automated garbage collection in C++
+
+IV. JavaScript - JavaScript is a client and server-side scripting language developed by Netscape that derives much of its syntax from C. It can be used across multiple web browsers and is considered essential for developing interactive or animated web functions. It is also used in game development and writing desktop applications. Unlike CSharp, it is an interpreted language.
+
+V. SQL - Structured Query Language (SQL) is a special-purpose language for managing data in relational database management systems. It is most commonly used for its "Query" function, which searches informational databases. While you cannot technically write applications with SQL, it is essential in supporting other languages, including CSharp.
