@@ -1,4 +1,4 @@
 C# - Part I
 =============
 
-Repository for homeworks from the "C# Part I" course 
+A repository for "C# - Part I" course homeworks.
