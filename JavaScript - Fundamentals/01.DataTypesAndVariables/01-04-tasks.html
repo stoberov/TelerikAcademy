@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01-04 Tasks</title>
+    <link rel="stylesheet" href="console/js-console.css"/>
+</head>
+<body>
+<div id="js-console"></div>
+<script src="console/js-console.js"></script>
+
+<script>
+    // Task 01
+    jsConsole.writeLine('<span class="task">// Task 1 == Assign all the possible JavaScript literals to different variables</span>');
+
+    // Integers
+    var a = 8;
+    var b = -13;
+    jsConsole.writeLine(a);
+    jsConsole.writeLine(b);
+
+    // Floating-point
+    var c = Math.PI;
+    var d = -2345.789;
+    jsConsole.writeLine(c);
+    jsConsole.writeLine(d);
+
+    // Boolean
+    var e = 5;
+    var firstBoolean = (e * 2) == '10';
+    var secondBoolean = (e * 2) === '10';
+
+    jsConsole.writeLine(firstBoolean);
+    jsConsole.writeLine(secondBoolean);
+
+    // Array
+    var sampleArray = ['The Matrix', 'Harry Potter', 'Star Wars', 'Gladiator'];
+    jsConsole.writeLine(sampleArray);
+
+    // Objects
+    var Car = 'BMW';
+    jsConsole.writeLine(Car);
+
+    // Strings
+    var sampleString = 'Get Up, Get Up, Balkan Superman';
+    jsConsole.writeLine(sampleString);
+
+    // Infinity, Undefined and NaN
+    var f = 10 / 0;
+    var g = -10 / 0;
+    var h = undefined;
+    var i = 10 / undefined;
+
+    jsConsole.writeLine(f);
+    jsConsole.writeLine(g);
+    jsConsole.writeLine(h);
+    jsConsole.writeLine(i);
+    jsConsole.writeLine('');
+
+
+    // Task 02
+    jsConsole.writeLine('<span class="task">// Task 2 == Create a string variable with quoted text in it. For example: \'How you doin\'?\', Joey said.</span>');
+
+    var quotedText = '"There once lived a hobbit", wrote Bilbo.';
+    jsConsole.writeLine(quotedText);
+    jsConsole.writeLine('');
+
+
+    // Task 03
+    jsConsole.writeLine('<span class="task">// Task 3 == Try typeof on all variables you created</span>');
+
+    jsConsole.writeLine('sampleArray is ' + typeof sampleArray);
+    jsConsole.writeLine('a is ' + typeof a);
+    jsConsole.writeLine('b is ' + typeof b);
+    jsConsole.writeLine('firstBoolean is ' + typeof firstBoolean);
+    jsConsole.writeLine('secondBoolean is ' + typeof secondBoolean);
+    jsConsole.writeLine('c is ' + typeof c);
+    jsConsole.writeLine('d is ' + typeof d);
+    jsConsole.writeLine('e is ' + typeof e);
+    jsConsole.writeLine('f is ' + typeof f);
+    jsConsole.writeLine('g is ' + typeof g);
+    jsConsole.writeLine('h is ' + typeof h);
+    jsConsole.writeLine('i is ' + typeof i);
+    jsConsole.writeLine('Car is ' + typeof Car);
+    jsConsole.writeLine('sampleString is ' + typeof sampleString);
+    jsConsole.writeLine('quotedText is ' + typeof quotedText);
+    jsConsole.writeLine('');
+
+
+    // Task 04
+    jsConsole.writeLine('<span class="task">// Task 4 == Create null, undefined variables and try typeof on them</span>');
+
+    var x = undefined;
+    jsConsole.writeLine(x);
+    jsConsole.writeLine('x is ' + typeof (x));
+
+    var y = null;
+    jsConsole.writeLine(y); // invisible in console;
+    jsConsole.writeLine('y is ' + typeof (y));
+
+</script>
+</body>
+</html>
