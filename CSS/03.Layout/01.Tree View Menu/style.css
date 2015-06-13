@@ -1,0 +1,16 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    width: 100px;
+}
+
+.parent ul {
+    display: none;
+}
+
+.parent:hover > ul {
+    display: block;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #595959;
+    color: #9EA7A9;
+}
+
+h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+dl {
+    width: 400px;
+}
+
+dt {
+    float: left;
+    clear: right;
+    width: 150px;
+    color: #FFF;
+    font-style: italic;
+}
+
+dd {
+    float: right;
+    padding-bottom: 12px;
+    width: 250px;
+    text-align: left;
+}
+
+a {
+    color: #D5DAA0;
+    text-decoration: none;
+}
+
+img {
+    padding-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.user {
+    color: #D5DAA0;
+}
+
+.warning {
+    color: #F00;
+}
+
+.status {
+    color: #FFA500;
+}

@@ -1,0 +1,114 @@
+﻿section, header, nav, form, fieldset, p, div, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 29px;
+    color: #000;
+    background-color: #808080;
+}
+
+header {
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav {
+    margin: 0 10px;
+    border-bottom: 3px groove #000;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #b9b7b7;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: #f00;
+}
+
+.content-wrapper {
+    position: relative;
+    width: 675px;
+    height: 510px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px groove #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.main-content {
+    width: 453px;
+    border: 2px groove #000;
+    float: left;
+    padding: 5px;
+}
+
+.main-content ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+fieldset {
+    width: 220px;
+    position: relative;
+    border: 2px groove #000;
+}
+
+.laptop-img {
+    background: url(images/laptop.png) no-repeat;
+    height: 70px;
+    width: 120px;
+    float: left;
+}
+
+.legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 20px;
+}
+
+span {
+    padding-left: 42px;
+}
+
+aside {
+    width: 20%;
+    height: 328px;
+    float: left;
+    padding: 50px 0 50px 10px;
+    margin: 0 20px 0 30px;
+}
+
+aside ul li {
+    list-style-type: none;
+    display: block;
+}
+
+aside input {
+    cursor: pointer;
+}

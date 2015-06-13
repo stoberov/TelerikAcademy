@@ -1,0 +1,112 @@
+body, div, section, article, header, img, p, input, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #3b3b3b;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A5A5A5;
+    padding-top: 30px;
+}
+
+section {
+    width: 620px;
+    margin: 0 auto;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 1px solid #806850;
+    border-radius: 6px;
+}
+
+header {
+    font-family: Georgia, serif;
+    padding: 0 5px 5px 5px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    background-color: transparent;
+    background-image: -moz-radial-gradient(center bottom, ellipse farthest-corner, rgba(0, 0, 0, 0.9), rgba(56, 48, 48, 0) 65%);
+    background-image: -webkit-radial-gradient(center bottom, ellipse farthest-corner, rgba(0, 0, 0, 0.9), rgba(56, 48, 48, 0) 65%);
+    background-image: -o-radial-gradient(center bottom, ellipse farthest-corner, rgba(0, 0, 0, 0.9), rgba(56, 48, 48, 0) 65%);
+    background-image: -ms-radial-gradient(center bottom, ellipse farthest-corner, rgba(0, 0, 0, 0.9), rgba(56, 48, 48, 0) 65%);
+    background-image: radial-gradient(center bottom, ellipse farthest-corner, rgba(0, 0, 0, 0.9), rgba(56, 48, 48, 0) 65%)
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.monitor {
+    width: 43px;
+    height: 47px;
+    background-image: url('http://picbg.net/u/62753/54649/690042.png');
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+input {
+    height: 20px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+article {
+    margin-top: -25px;
+}
+
+h1 {
+    color: #fdd416;
+    padding: 15px 0 0 10px;
+    font-family: georgia, serif;
+    line-height: 30px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+span {
+    color: #fff;
+}
+
+#button {
+    width: 56px;
+    height: 27px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 0;
+    background: transparent url("http://picbg.net/u/62753/54649/690043.png") no-repeat center top;
+    text-indent: 20px;
+    /* hand-shaped cursor */
+    cursor: hand;
+    /* for IE 5.x */
+}
+
+#button:hover {
+    box-shadow: 0 0 15px 1px #ff0101;
+    -webkit-box-shadow: 0 0 20px 1px #ff0101;
+    -moz-box-shadow: 0 0 12px 1px #ff0101;
+}
+
+#button:active {
+    background: url("http://picbg.net/u/62753/54649/690044.png") no-repeat;
+    box-shadow: none;
+}
+
+p {
+    margin-top: -10px;
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+    line-height: 20px;
+}

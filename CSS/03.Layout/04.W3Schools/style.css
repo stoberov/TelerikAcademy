@@ -1,0 +1,209 @@
+﻿section, aside, header, footer, div, h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.9em;
+    line-height: 17px;
+    background-color: #ebe9e9;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+    background-color: #808080;
+    color: #fff;
+    padding: 0 5px;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.left-column a {
+    color: #000;
+    text-decoration: none;
+}
+
+.left-column a:link {
+    text-decoration: none;
+}
+
+.left-column a:hover {
+    text-decoration: underline;
+}
+
+.left-column a:active {
+    color: #0f42e9;
+    text-decoration: underline;
+}
+
+.category a {
+    color: #f00;
+    font-weight: bold;
+}
+
+.right-column a, .middle-column a {
+    color: #f00;
+}
+
+.right-column a:link, .middle-column a:link {
+    color: #f00;
+}
+
+.right-column a:hover, .middle-column a:hover {
+    font-weight: bold;
+}
+
+.right-column a:active, .middle-column a:active {
+    color: #0f42e9;
+}
+
+.content-wrapper {
+    position: relative;
+    width: 95%;
+    height: 760px;
+    margin: 10px auto;
+    max-width: 1600px;
+    border: 2px solid #808080;
+}
+
+.left-column {
+    position: relative;
+    height: 730px;
+    float: left;
+    width: 20%;
+}
+
+.middle-column {
+    margin: 5px 5px 0 5px;
+    padding: 20px 5px 40px 5px;
+    float: left;
+    border: 1px solid black;
+    width: 58%;
+    height: 660px;
+    background-color: #fff;
+}
+
+.right-column {
+    margin: 5px 5px 0 0;
+    float: right;
+    width: 20%;
+    border: 1px solid black;
+    height: 731px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.right-column div {
+    border: 1px solid #808080;
+    margin: 5px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+ul {
+    display: inline;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.previous {
+    margin-top: 20px;
+    background: #f5f5f5 url(images/leftarrow.png) no-repeat left;
+    border: 1px outset #000;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.next {
+    background: #f5f5f5 url(images/rightarrow.png) no-repeat right;
+    border: 1px outset #000;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.middle-column header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #808080;
+}
+
+.img {
+    background: url(images/logocss.gif) no-repeat;
+    float: left;
+    margin: 10px 45px 10px 10px;
+    width: 105px;
+    height: 84px;
+}
+
+article {
+    margin: 10px 0;
+}
+
+.middle-column article p {
+    padding-bottom: 20px;
+}
+
+article:first-of-type p {
+    font-weight: bold;
+    padding: 10px 10px 15px 0;
+}
+
+footer {
+    border-bottom: 2px solid #808080;
+    border-top: 2px solid #808080;
+    margin-top: 20px;
+}
+
+footer .next, footer .previous {
+    margin: 10px 0;
+}
+
+.right-column h6 {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.right-column form {
+    margin-bottom: 10px;
+}
+
+.right-column input[type=submit], .right-column button {
+    cursor: pointer;
+}
+
+.right-column a {
+    display: block;
+}
+
+.right-column div {
+    padding: 8px 0;
+}
+
+.right-column div:first-of-type {
+    padding-top: 0;
+}
+
+.right-column div:nth-child(2n+1) {
+    padding-top: 0;
+}
+
+.right-column button {
+    width: 102px;
+    height: 31px;
+    background: url(images/right-button.png) no-repeat center;
+}

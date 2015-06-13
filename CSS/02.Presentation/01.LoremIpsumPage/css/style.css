@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #0094ff;
+    font-size: 22px;
+}
+
+p {
+    padding: 0 14px;
+    text-align: justify;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 42px;
+    font-family: Edwardian Script ITC, Consolas, serif;
+}

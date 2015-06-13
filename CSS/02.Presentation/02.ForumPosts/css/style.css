@@ -1,0 +1,262 @@
+.clearfix, body header #header-container, body header nav, body header nav ul, body header nav ul li ul.sub-nav-list, body section, body aside {
+    zoom: 1;
+}
+
+.clearfix:after, body header #header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header #header-container:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
+    display: block;
+    overflow: hidden;
+    height: 0;
+    content: "\0020";
+}
+
+.clearfix:after, body header #header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
+    clear: both;
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+html {
+    background: #d493fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #d493fe 0%, #c78df3 7%, #9c2ef2 22%, #9215f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d493fe), color-stop(7%, #c78df3), color-stop(22%, #9c2ef2), color-stop(100%, #9215f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d493fe 0%, #c78df3 7%, #9c2ef2 22%, #9215f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d493fe 0%, #c78df3 7%, #9c2ef2 22%, #9215f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d493fe 0%, #c78df3 7%, #9c2ef2 22%, #9215f2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d493fe 0%, #c78df3 7%, #9c2ef2 22%, #9215f2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d493fe', endColorstr='#9215f2', GradientType=0); /* IE6-9 */
+}
+
+body {
+    color: white;
+    font: 14px normal Arial;
+}
+
+body header {
+    padding: 25px 15px 5px 15px;
+}
+
+body header #header-container #logo-container {
+    position: relative;
+    float: left;
+}
+
+body header #header-container #reg-form-container {
+    position: relative;
+    top: 50%;
+    right: 5%;
+    float: right;
+}
+
+body header #header-container #reg-form-container div {
+    text-align: right;
+}
+
+body header #header-container #reg-form-container div label {
+    margin: 5px;
+    width: 50px;
+}
+
+body header #header-container #reg-form-container div input {
+    margin: 5px;
+    padding: 2px 5px;
+    width: 130px;
+    border: 1px solid #603382;
+    border-radius: 10px;
+    background-color: #B35EF3;
+}
+
+body header #header-container #reg-form-container button {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 8px;
+    border: 1px outset #603382;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+body header #header-container #reg-form-container button:hover {
+    border-style: inset;
+    background-color: #8949b9;
+}
+
+body header nav {
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    padding: 12px;
+    width: 75%;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+body header nav ul.nav-list {
+    list-style-type: none;
+}
+
+body header nav ul li {
+    float: left;
+    margin: 0;
+}
+
+body header nav ul li a {
+    padding: 0 10px 0 10px;
+    color: white;
+    text-decoration: none;
+    font: 1.4em normal Arial;
+}
+
+body header nav ul li a.selected {
+    font-weight: bold;
+}
+
+body header nav ul li:hover > a {
+    color: #a8a8a8;
+    text-decoration: underline;
+}
+
+body header nav ul li:hover > a + ul {
+    display: block;
+}
+
+body header nav ul li ul.sub-nav-list {
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(179, 94, 243, 0.9);
+}
+
+body header nav ul li ul li {
+    float: none;
+    margin: 0 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+body header nav ul li ul li:last-of-type {
+    border-bottom: none;
+}
+
+body header nav ul li ul li > a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+body section {
+    float: left;
+    width: 75%;
+}
+
+body section article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+body section article header {
+    padding: 5px;
+    background: none;
+}
+
+body section article header h1 {
+    padding: 0;
+    font-size: 1.4em;
+}
+
+body section article footer {
+    padding: 5px;
+}
+
+body section article footer p {
+    text-align: right;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+body section article footer p time {
+    font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+}
+
+body section article footer p a {
+    color: #C46FF6;
+    text-decoration: none;
+}
+
+body section article footer p a:hover {
+    text-decoration: underline;
+}
+
+body aside {
+    float: left;
+    margin: 20px;
+    width: 20%;
+}
+
+body aside > ul {
+    list-style-type: none;
+}
+
+body aside > ul > li {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+body aside > ul > li h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+body aside > ul > li p {
+    margin-top: 10px 5px;
+    font-size: 14px;
+}
+
+body aside > ul > li p a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+body aside > ul > li p strong {
+    color: #cccccc;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body aside > ul > li p em {
+    color: #cccccc;
+    font-weight: normal;
+    font-style: italic;
+}
+
+body aside > ul > li ul {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+body aside > ul > li ul li {
+    margin: 5px 0 0 10px;
+    padding-left: 25px;
+    background: url(../images/li-dot.png) no-repeat 0 50%;
+}
+
+body footer {
+    clear: both;
+    padding: 15px 0 25px;
+    text-align: center;
+}
+
+body footer p {
+    font-weight: bold;
+    font-size: 1.2em;
+}

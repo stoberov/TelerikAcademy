@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>04.Windows Calculator</title>
+    </head>
+    <body>
+        <div id="wrapper-outside">
+            <img id="icon" src="http://s28.postimg.org/liq0uaqe1/ico.jpg" width="12" height="16" alt="icon"/><span
+                id="calc">Calculator</span> <img src="images/minMaxExit.png" id="minMaxExit" alt="minMaxExit"
+                                                 width="105"
+                                                 height="20"/>
+
+            <div id="wrapper-inside">
+                <div id="navigation">
+                    <ul>
+                        <li>
+                            View
+                        </li>
+                        <li>
+                            Edit
+                        </li>
+                        <li>
+                            Help
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" id="display" value="88544550"/>
+
+                <table id="binTB">
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td class="grey">63</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="grey">47</td>
+                        <td></td>
+                        <td></td>
+                        <td class="grey">32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>1000</td>
+                        <td>0111</td>
+                        <td>0001</td>
+                        <td>1011</td>
+                        <td>1011</td>
+                        <td>0111</td>
+                    </tr>
+                    <tr>
+                        <td class="grey">31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="grey">15</td>
+                        <td></td>
+                        <td></td>
+                        <td class="grey">0</td>
+                    </tr>
+                </table>
+                <div id="floatL">
+                    <div class="ns">
+                        <input type="radio" id="Hex" name="ns"/>
+                        <label for="Hex">Hex</label><br/>
+                        <input type="radio" id="Dec" name="ns" checked/>
+                        <label for="Dec">Dec</label><br/>
+                        <input type="radio" id="Oct" name="ns"/>
+                        <label for="Oct">Oct</label><br/>
+                        <input type="radio" id="Bin" name="ns"/>
+                        <label for="Bin">Bin</label>
+                    </div>
+                    <div class="ns">
+                        <input type="radio" id="Qword" name="nz" checked/>
+                        <label for="Qword">Qword</label><br/>
+                        <input type="radio" id="Dword" name="nz"/>
+                        <label for="Dword">Dword</label><br/>
+                        <input type="radio" id="Word" name="nz"/>
+                        <label for="Word">Word</label><br/>
+                        <input type="radio" id="Byte" name="nz"/>
+                        <label for="Byte">Byte</label>
+                    </div>
+                </div>
+                <div id="btn">
+                    <button class="cleanBtn">&nbsp;</button>
+                    <button class="fancyBtn">Mod</button>
+                    <button class="cleanBtn">A</button>
+                    <button class="hhBtn">MC</button>
+                    <button class="hhBtn">MR</button>
+                    <button class="hhBtn">MS</button>
+                    <button class="hhBtn">M+</button>
+                    <button class="hhBtn">M-</button>
+                    <br/>
+                    <button class="fancyBtn">(</button>
+                    <button class="fancyBtn">)</button>
+                    <button class="cleanBtn">B</button>
+                    <button class="fancyBtn">&larr;</button>
+                    <button class="fancyBtn">CE</button>
+                    <button class="fancyBtn">C</button>
+                    <button class="fancyBtn">
+                        &#177;</button>
+                    <button class="cleanBtn">
+                        &#8730;</button>
+
+                    <br/>
+                    <button class="fancyBtn">RoL</button>
+                    <button class="fancyBtn">RoR</button>
+                    <button class="cleanBtn">C</button>
+                    <button class="numBtn">7</button>
+                    <button class="numBtn">8</button>
+                    <button class="numBtn">9</button>
+                    <button class="fancyBtn">/</button>
+                    <button class="cleanBtn">%</button>
+                    <br/>
+                    <button class="fancyBtn">Or</button>
+                    <button class="fancyBtn">Xor</button>
+                    <button class="cleanBtn">D</button>
+                    <button class="numBtn">4</button>
+                    <button class="numBtn">5</button>
+                    <button class="numBtn">6</button>
+                    <button class="fancyBtn">*</button>
+                    <button class="cleanBtn">1/&chi;</button>
+
+                    <br/>
+                    <button class="fancyBtn">Lsh</button>
+                    <button class="fancyBtn">Rsh</button>
+                    <button class="cleanBtn">E</button>
+                    <button class="numBtn">1</button>
+                    <button class="numBtn">2</button>
+                    <button class="numBtn">3</button>
+                    <button class="fancyBtn">-</button>
+                    <button id="equals" class="fancyBtn">=</button>
+
+                    <br/>
+                    <button class="fancyBtn">Not</button>
+                    <button class="fancyBtn">And</button>
+                    <button class="cleanBtn">F</button>
+                    <button id="zero" class="numBtn">0</button>
+                    <button class="cleanBtn">.</button>
+                    <button class="fancyBtn">+</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
