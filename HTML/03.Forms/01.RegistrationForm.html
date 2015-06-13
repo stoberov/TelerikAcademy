@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sample Web Form</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 1px solid #444;
+            }
+
+            td {
+                border: 1px solid #444;
+            }
+
+            .short {
+                width: 30px;
+            }
+
+            .long {
+                width: 80px;
+            }
+
+            .requirements {
+                text-align: right;
+                font-weight: 900;
+                padding-right: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post">
+            <table>
+                <tr>
+                    <td class="requirements">First Name</td>
+                    <td>
+                        <input type="text" value="Harry"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Last Name</td>
+                    <td>
+                        <input type="text" value="Potter"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Address</td>
+                    <td>
+                        <textarea>1300 Hogwarts Boulevard</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">City</td>
+                    <td>
+                        <input style="width: 110px;" type="text" value="London"/>
+                        <input class="short" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Zip/Postal Code</td>
+                    <td>
+                        <input class="short" type="text" value="9325"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Country</td>
+                    <td>
+                        <select>
+                            <option value="bg">Bulgaria</option>
+                            <option value="en">England</option>
+                            <option value="gm">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">
+                        Phone (country code,<br/> area code, number)
+                    </td>
+                    <td>
+                        (+
+                        <input type="text" class="short" value="359"/>)
+                        <input type="text" class="short" value="88"/>-
+                        <input type="text" class="long" value="8334343"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">E-mail</td>
+                    <td>
+                        <input type="text" value="harry.potter@hogwarts.org"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Birth date</td>
+                    <td>
+                        Month
+                        <input type="text" class="short" value="06"/>Day
+                        <input type="text" class="short" value="14"/>Year(4 digit)
+                        <input type="text" class="short" value="1980"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Gender</td>
+                    <td>
+                        <select>
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Starting date</td>
+                    <td>
+                        <input type="radio" name="date" value="spring">Spring 2006
+                        <input type="radio" name="date" value="summer">Summer 2006
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirements">Comments/Questions</td>
+                    <td>
+                        <textarea cols="40" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr style="text-align: center; background-color: #17e0ed">
+                    <td colspan="2">
+                        <input type="submit"/>
+                        <input type="reset"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

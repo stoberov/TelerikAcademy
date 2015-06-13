@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <style>
+            table {
+                border: 2px solid #e77d00;
+                background-color: #dbefec;
+            }
+
+            td {
+                width: 50px;
+            }
+
+            thead input {
+                text-align: right;
+                font-size: 26px;
+                padding-right: 5px;
+                width: 204px;
+                height: 50px;
+            }
+
+            button {
+                width: 50px;
+                height: 50px;
+                font-size: 26px;
+                color: #0e278a;
+            }
+
+            .large {
+                width: 105px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" placeholder="123"/>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <button>1</button>
+                        </td>
+                        <td>
+                            <button>2</button>
+                        </td>
+                        <td>
+                            <button>3</button>
+                        </td>
+                        <td>
+                            <button>+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>4</button>
+                        </td>
+                        <td>
+                            <button>5</button>
+                        </td>
+                        <td>
+                            <button>6</button>
+                        </td>
+                        <td>
+                            <button>-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>7</button>
+                        </td>
+                        <td>
+                            <button>8</button>
+                        </td>
+                        <td>
+                            <button>9</button>
+                        </td>
+                        <td>
+                            <button>*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="large">0</button>
+                        </td>
+                        <td>
+                            <button>.</button>
+                        </td>
+                        <td>
+                            <button>/</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
