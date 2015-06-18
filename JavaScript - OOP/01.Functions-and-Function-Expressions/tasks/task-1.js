@@ -9,7 +9,7 @@
 */
 
 function sum() {
-	
+	var test;
 }
 
 module.exports = sum;
