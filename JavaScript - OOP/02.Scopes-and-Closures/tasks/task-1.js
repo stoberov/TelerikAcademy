@@ -50,7 +50,6 @@ function solve() {
         }
 
         function isUniqueBook(book) {
-
             for (i = 0, len = books.length; i < len; i += 1) {
                 if (books[i].title === book.title) {
                     throw  new Error('Title already added');
