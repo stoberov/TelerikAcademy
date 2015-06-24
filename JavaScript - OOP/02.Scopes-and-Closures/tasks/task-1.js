@@ -52,9 +52,9 @@ function solve() {
         function isUniqueBook(book) {
             for (i = 0, len = books.length; i < len; i += 1) {
                 if (books[i].title === book.title) {
-                    throw  new Error('Title already added');
+                    throw new Error('Title already added');
                 } else if (books[i].isbn === book.isbn) {
-                    throw  new Error('ISBN already added');
+                    throw new Error('ISBN already added');
                 } else {
                     return true;
                 }
