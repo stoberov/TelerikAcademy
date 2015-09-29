@@ -1,4 +1,4 @@
 Databases and SQL
 =============
 
-A repository for "Databased and SQL" course homeworks.
+A repository for "Databases and SQL" course homeworks.
