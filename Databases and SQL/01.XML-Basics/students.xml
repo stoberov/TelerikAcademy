@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+
+<students xmlns="urn:students">
+  <student>
+    <name>Jon Snow</name>
+    <sex>male</sex>
+    <birthDate>25 May 1993</birthDate>
+    <phone>+359888888888</phone>
+    <email>jon.snow@stark.com</email>
+    <course>3</course>
+    <specialty>Mobile</specialty>
+    <facultyNumber>201</facultyNumber>
+    <exams>
+      <exam>
+        <name>JavaScript</name>
+        <tutor>Ivaylo</tutor>
+        <score>Fail</score>
+      </exam>
+      <exam>
+        <name>C#</name>
+        <tutor>Nikolay</tutor>
+        <score>Pass with Excellence</score>
+      </exam>
+    </exams>
+    <endorsements>
+      <endorsement>
+        <teacher>Evlogi</teacher>
+        <text>You know nothing, Jon Snow!</text>
+      </endorsement>
+    </endorsements>
+  </student>
+  <student>
+    <name>Tyrion Lannister</name>
+    <sex>male</sex>
+    <birthDate>10 December 1973</birthDate>
+    <phone>+359888919191</phone>
+    <email>tyrion.lannister@money.eu</email>
+    <course>1</course>
+    <specialty>QA</specialty>
+    <facultyNumber>202</facultyNumber>
+    <exams>
+      <exam>
+        <name>JavaScript</name>
+        <tutor>Ivaylo</tutor>
+        <score>Pass with Excellence</score>
+      </exam>
+      <exam>
+        <name>C#</name>
+        <tutor>Nikolay</tutor>
+        <score>Pass with Excellence</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Melisandre</name>
+    <sex>female</sex>
+    <birthDate>30 July 1980</birthDate>
+    <phone>+359887555555</phone>
+    <email>melisandre@fire.co.uk</email>
+    <course>5</course>
+    <specialty>Back-end</specialty>
+    <facultyNumber>203</facultyNumber>
+    <exams>
+      <exam>
+        <name>JavaScript</name>
+        <tutor>Ivaylo</tutor>
+        <score>Fail</score>
+      </exam>
+      <exam>
+        <name>C#</name>
+        <tutor>Nikolay</tutor>
+        <score>Pass</score>
+      </exam>
+    </exams>
+    <endorsement>
+      <teacher>Tsuki</teacher>
+      <text>Your code is dark and full of errors!</text>
+    </endorsement>
+  </student>
+</students>

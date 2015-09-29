@@ -1,0 +1,1 @@
+XML stands for eXtensible Markup Language. It is a universal language (notation) for describing structured data using text with tags. The data is stored together with the meta-data about it.

@@ -1,0 +1,1 @@
+?A namespace is a set of names, in which all names are unique. The XML Namespaces are used to prevent element name conflicts.
