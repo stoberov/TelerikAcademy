@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Dangerous</name>
+    <artist>Michael Jackson</artist>
+    <year>1991</year>
+    <producer>Teddy Riley</producer>
+    <price>18</price>
+    <songs>
+      <song>
+        <title>Give In To Me</title>
+        <duration>5:28</duration>
+      </song>
+      <song>
+        <title>Who Is It</title>
+        <duration>6:35</duration>
+      </song>
+      <song>
+        <title>Remember The Time</title>
+        <duration>4:00</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

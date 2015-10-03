@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<catalog>
+	<album>
+		<name>Thriller</name>
+		<artist>Michael Jackson</artist>
+	</album>
+	<album>
+		<name>Dangerous</name>
+		<artist>Michael Jackson</artist>
+	</album>
+	<album>
+		<name>Americana</name>
+		<artist>The Offspring</artist>
+	</album>
+</catalog>

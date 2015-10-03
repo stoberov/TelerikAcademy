@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<catalog>
+  <album>
+    <name>Thriller</name>
+    <artist>Michael Jackson</artist>
+    <year>1982</year>
+    <producer>Quincy Jones</producer>
+    <price>24</price>
+    <songs>
+      <song>
+        <title>Billie Jean</title>
+        <duration>4:54</duration>
+      </song>
+      <song>
+        <title>Beat It</title>
+        <duration>4:18</duration>
+      </song>
+      <song>
+        <title>The Girl Is Mine</title>
+        <duration>3:42</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Dangerous</name>
+    <artist>Michael Jackson</artist>
+    <year>1991</year>
+    <producer>Teddy Riley</producer>
+    <price>18</price>
+    <songs>
+      <song>
+        <title>Give In To Me</title>
+        <duration>5:28</duration>
+      </song>
+      <song>
+        <title>Who Is It</title>
+        <duration>6:35</duration>
+      </song>
+      <song>
+        <title>Remember The Time</title>
+        <duration>4:00</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Americana</name>
+    <artist>The Offspring</artist>
+    <year>1998</year>
+    <producer>Dave Jerden</producer>
+    <price>24</price>
+    <songs>
+      <song>
+        <title>The Kids Aren't Alright</title>
+        <duration>3:00</duration>
+      </song>
+      <song>
+        <title>Pretty Fly (for a White Guy)</title>
+        <duration>3:07</duration>
+      </song>
+      <song>
+        <title>Why Don't You Get a Job?</title>
+        <duration>2:49</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
